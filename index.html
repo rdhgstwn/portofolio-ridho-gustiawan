@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ridho Gustiawan — IT Infrastructure & ELV Field Engineer</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔧</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+ <div class="wrap navrow">
+  <div class="brand"><span class="dot"></span>RG / INFRA-LOG<small>&nbsp;— AVAILABLE FOR PROJECTS</small></div>
+  <nav>
+   <div class="navlinks" style="display:flex; gap:26px; align-items:center;">
+    <a class="navlink" href="#spek">01. Spesifikasi</a>
+    <a class="navlink" href="#arsip">02. Dokumentasi Proyek</a>
+    <a class="navlink" href="#pengalaman">03. Pengalaman</a>
+   </div>
+   <a class="btn solid" href="#kontak" style="margin-left:22px;">Hubungi</a>
+  </nav>
+ </div>
+</header>
+
+<section class="hero wrap">
+ <div class="herogrid">
+  <div>
+   <div class="eyebrow">FIELD TECHNICIAN — IT INFRASTRUCTURE &amp; ELV</div>
+   <h1>Membangun Fondasi Fisik Jaringan &amp; Sistem Pengawasan.</h1>
+  </div>
+  <div class="heroside">
+   <p>Menangani instalasi kabel terstruktur skala pabrik/gedung, integrasi CCTV enterprise, IP PBX Yeastar, dan sistem tata suara gedung TOA.</p>
+   <div class="idbadge">
+    <img src="assets/images/portrait.jpg" alt="Ridho Gustiawan">
+    <div class="idtxt"><b>RIDHO GUSTIAWAN</b>ID: 010 / K3 CERTIFIED<br>FIELD OPERATOR</div>
+   </div>
+  </div>
+ </div>
+ <div class="metabar">
+  <div><span>LOKASI</span>BOGOR / JABODETABEK</div>
+  <div><span>PENDIDIKAN</span>S1 TEKNIK INFORMATIKA — IPK 3.43</div>
+  <div><span>STATUS</span>FIELD TECHNICIAN, PROJECT-BASED</div>
+ </div>
+</section>
+
+<section class="sec bord wrap" id="spek">
+ <div class="sechead">
+  <div><h2><span class="secno">01.</span>Perangkat &amp; Ekosistem</h2></div>
+  <p>Kategori perangkat dan sistem yang ditangani di lapangan secara rutin.</p>
+ </div>
+ <div class="stackgrid">
+  <div class="stackcard"><div class="sn">BLOCK / 01</div><h4>Surveillance</h4>
+   <ul><li>Hikvision &amp; Dahua Camera</li><li>NVR / DVR</li><li>SADP Tool</li><li>IP PoE</li></ul></div>
+  <div class="stackcard"><div class="sn">BLOCK / 02</div><h4>Cabling &amp; Network</h4>
+   <ul><li>Cat6 UTP</li><li>Patch Panel</li><li>Cable Tray</li><li>MikroTik / Cisco Switch</li></ul></div>
+  <div class="stackcard"><div class="sn">BLOCK / 03</div><h4>Voice &amp; Audio</h4>
+   <ul><li>Yeastar IP PBX</li><li>SIP Extension</li><li>Public Address TOA</li></ul></div>
+  <div class="stackcard"><div class="sn">BLOCK / 04</div><h4>Systems</h4>
+   <ul><li>PC Assembly</li><li>Hardware Troubleshooting</li><li>Biometric Scanner</li><li>Windows OS</li></ul></div>
+ </div>
+</section>
+
+<section class="sec bord wrap" id="arsip">
+ <div class="sechead">
+  <div><h2><span class="secno">02.</span>Field Project Archive</h2></div>
+  <p>Dokumentasi langsung dari lapangan — klik untuk detail teknis.</p>
+ </div>
+ <div class="filters">
+  <button class="fbtn active" data-f="all">SEMUA DOKUMEN</button>
+  <button class="fbtn" data-f="jaringan">JARINGAN &amp; KABEL</button>
+  <button class="fbtn" data-f="cctv">SURVEILLANCE CCTV</button>
+  <button class="fbtn" data-f="pbx">IP PBX &amp; TOA</button>
+ </div>
+ <div class="pgrid" id="pgrid">
+    <div class="pcard" data-cat="jaringan" onclick="openModal(0)">
+      <div class="pimg"><img src="assets/images/proj-01-os-install.jpg" loading="lazy" alt="Instalasi Ulang Sistem Operasi & Penggantian HDD"><span class="ptag">OS INSTALLATION</span></div>
+      <div class="pbody">
+        <div class="pcatline">JARINGAN & KABEL</div>
+        <h3>Instalasi Ulang Sistem Operasi & Penggantian HDD</h3>
+        <p class="pscope"><span>SCOPE</span>Instalasi ulang Windows OS pada unit laptop klien, pemeriksaan kondisi hardware, persiapan HDD pengganti untuk unit backup.</p>
+        <p class="phw"><span>HARDWARE</span>Laptop Klien, HDD 2.5", Installer Windows OS</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="jaringan" onclick="openModal(1)">
+      <div class="pimg"><img src="assets/images/proj-02-cable-pulling.jpg" loading="lazy" alt="Penarikan Kabel Daya CCTV Jalur Outdoor"><span class="ptag">CABLE PULLING</span></div>
+      <div class="pbody">
+        <div class="pcatline">JARINGAN & KABEL</div>
+        <h3>Penarikan Kabel Daya CCTV Jalur Outdoor</h3>
+        <p class="pscope"><span>SCOPE</span>Penarikan kabel pada jalur outdoor menuju titik kamera, pengukuran panjang dari gulungan, persiapan jalur sebelum masuk konduit.</p>
+        <p class="phw"><span>HARDWARE</span>Kabel Power 2x1.5mm, Cable Reel</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="cctv" onclick="openModal(2)">
+      <div class="pimg"><img src="assets/images/proj-03-cctv-multiview.jpg" loading="lazy" alt="Monitoring Multi-Channel CCTV Area Residensial"><span class="ptag">16-CH MULTIVIEW</span></div>
+      <div class="pbody">
+        <div class="pcatline">SURVEILLANCE CCTV</div>
+        <h3>Monitoring Multi-Channel CCTV Area Residensial</h3>
+        <p class="pscope"><span>SCOPE</span>Konfigurasi split-view 16 kamera pada monitor NVR, verifikasi sudut pandang tiap titik, pengecekan status rekaman aktif.</p>
+        <p class="phw"><span>HARDWARE</span>NVR 16-Channel, Monitor, Kamera IP Indoor/Outdoor</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="jaringan" onclick="openModal(3)">
+      <div class="pimg"><img src="assets/images/proj-04-rack-setup.jpg" loading="lazy" alt="Setup Rack Jaringan, UPS & Access Point Ruang Server"><span class="ptag">NETWORK RACK SETUP</span></div>
+      <div class="pbody">
+        <div class="pcatline">JARINGAN & KABEL</div>
+        <h3>Setup Rack Jaringan, UPS & Access Point Ruang Server</h3>
+        <p class="pscope"><span>SCOPE</span>Perapian kabel pada rack, instalasi UPS & router WiFi, pengecekan status koneksi melalui laptop teknisi di lapangan.</p>
+        <p class="phw"><span>HARDWARE</span>Server Rack 6U, UPS Inforce, Router Tri-Antenna, Patch Cable</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="pbx" onclick="openModal(4)">
+      <div class="pimg"><img src="assets/images/proj-05-phone-deployment.jpg" loading="lazy" alt="Distribusi Unit Telepon Panasonic KX-TS505MX"><span class="ptag">TELEPHONE UNIT DEPLOYMENT</span></div>
+      <div class="pbody">
+        <div class="pcatline">IP PBX & TOA</div>
+        <h3>Distribusi Unit Telepon Panasonic KX-TS505MX</h3>
+        <p class="pscope"><span>SCOPE</span>Penerimaan & sortir unit telepon PABX per lantai, pengecekan kelengkapan dus sebelum proses instalasi ekstensi.</p>
+        <p class="phw"><span>HARDWARE</span>Panasonic KX-TS505MX x12, Kabel Ekstensi</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="jaringan" onclick="openModal(5)">
+      <div class="pimg"><img src="assets/images/proj-06-ap-config.jpg" loading="lazy" alt="Konfigurasi Access Point & Pemetaan Titik Pangkalan"><span class="ptag">AP CONFIGURATION</span></div>
+      <div class="pbody">
+        <div class="pcatline">JARINGAN & KABEL</div>
+        <h3>Konfigurasi Access Point & Pemetaan Titik Pangkalan</h3>
+        <p class="pscope"><span>SCOPE</span>Login web-admin access point, pengaturan jaringan WiFi, pencatatan manual titik pangkalan & ID perangkat.</p>
+        <p class="phw"><span>HARDWARE</span>D-Link DAP-X1810, Laptop Konfigurasi, Logbook Lapangan</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="jaringan" onclick="openModal(6)">
+      <div class="pimg"><img src="assets/images/proj-07-ceiling-cable.jpg" loading="lazy" alt="Instalasi Jalur Kabel di Atas Plafon Koridor Gedung"><span class="ptag">CEILING CABLE ROUTING</span></div>
+      <div class="pbody">
+        <div class="pcatline">JARINGAN & KABEL</div>
+        <h3>Instalasi Jalur Kabel di Atas Plafon Koridor Gedung</h3>
+        <p class="pscope"><span>SCOPE</span>Penarikan kabel jaringan di atas plafon gedung, pemasangan dudukan kabel, kerja pada ketinggian sesuai prosedur K3.</p>
+        <p class="phw"><span>HARDWARE</span>Tangga Alumunium, Kabel UTP, Cable Clip</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="cctv" onclick="openModal(7)">
+      <div class="pimg"><img src="assets/images/proj-08-power-termination.jpg" loading="lazy" alt="Terminasi Panel Power Supply & Video Balun CCTV"><span class="ptag">POWER & SIGNAL TERMINATION</span></div>
+      <div class="pbody">
+        <div class="pcatline">SURVEILLANCE CCTV</div>
+        <h3>Terminasi Panel Power Supply & Video Balun CCTV</h3>
+        <p class="pscope"><span>SCOPE</span>Pemasangan power supply 8-channel, terminasi kabel BNC ke video balun, perapian jalur kabel pada dinding.</p>
+        <p class="phw"><span>HARDWARE</span>CCTV Power Supply 8CH, Video Balun, Kabel Coaxial</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="cctv" onclick="openModal(8)">
+      <div class="pimg"><img src="assets/images/proj-09-dvr-deployment.jpg" loading="lazy" alt="Deployment CCTV 8-Channel Area Dapur & Produksi"><span class="ptag">DVR DEPLOYMENT</span></div>
+      <div class="pbody">
+        <div class="pcatline">SURVEILLANCE CCTV</div>
+        <h3>Deployment CCTV 8-Channel Area Dapur & Produksi</h3>
+        <p class="pscope"><span>SCOPE</span>Instalasi kamera fisheye & standar pada area produksi, konfigurasi DVR, monitoring bandwidth tiap channel.</p>
+        <p class="phw"><span>HARDWARE</span>DVR 8-Channel, Kamera Fisheye, Monitor</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="pbx" onclick="openModal(9)">
+      <div class="pimg"><img src="assets/images/proj-10-extension-testing.jpg" loading="lazy" alt="Instalasi & Pengujian Ekstensi Telepon PABX"><span class="ptag">EXTENSION TESTING</span></div>
+      <div class="pbody">
+        <div class="pcatline">IP PBX & TOA</div>
+        <h3>Instalasi & Pengujian Ekstensi Telepon PABX</h3>
+        <p class="pscope"><span>SCOPE</span>Unboxing unit telepon, pengujian nada sambung per ekstensi, pencocokan nomor sebelum serah terima ke klien.</p>
+        <p class="phw"><span>HARDWARE</span>Panasonic KX-TS505MX, Kabel Line Telepon</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="pbx" onclick="openModal(10)">
+      <div class="pimg"><img src="assets/images/proj-11-desk-unit.jpg" loading="lazy" alt="Pemasangan Unit Telepon & Printer pada Meja Kerja"><span class="ptag">DESK UNIT INSTALLATION</span></div>
+      <div class="pbody">
+        <div class="pcatline">IP PBX & TOA</div>
+        <h3>Pemasangan Unit Telepon & Printer pada Meja Kerja</h3>
+        <p class="pscope"><span>SCOPE</span>Penempatan unit telepon PABX pada meja kerja staf, pengujian sambungan line telepon, integrasi dengan printer & PC kerja.</p>
+        <p class="phw"><span>HARDWARE</span>Panasonic Telephone Unit, Epson L210 Printer, PC Monitor</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="pbx" onclick="openModal(11)">
+      <div class="pimg"><img src="assets/images/proj-12-line-install.jpg" loading="lazy" alt="Instalasi Line Telepon pada Titik Kerja Baru"><span class="ptag">LINE INSTALLATION</span></div>
+      <div class="pbody">
+        <div class="pcatline">IP PBX & TOA</div>
+        <h3>Instalasi Line Telepon pada Titik Kerja Baru</h3>
+        <p class="pscope"><span>SCOPE</span>Pemasangan unit telepon pada titik kerja baru, penyambungan kabel line ke roset dinding, pengujian nada panggil.</p>
+        <p class="phw"><span>HARDWARE</span>Panasonic Telephone Unit, Line Roset</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="cctv" onclick="openModal(12)">
+      <div class="pimg"><img src="assets/images/proj-13-footage-verify.jpg" loading="lazy" alt="Verifikasi Rekaman CCTV Saat Instalasi Line Telepon"><span class="ptag">FOOTAGE VERIFICATION</span></div>
+      <div class="pbody">
+        <div class="pcatline">SURVEILLANCE CCTV</div>
+        <h3>Verifikasi Rekaman CCTV Saat Instalasi Line Telepon</h3>
+        <p class="pscope"><span>SCOPE</span>Pengecekan hasil rekaman kamera fisheye secara langsung di lokasi, memastikan sudut pandang & kualitas gambar sudah sesuai.</p>
+        <p class="phw"><span>HARDWARE</span>Kamera Fisheye Indoor, DVR/NVR</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="cctv" onclick="openModal(13)">
+      <div class="pimg"><img src="assets/images/proj-14-hikvision-webview.jpg" loading="lazy" alt="Konfigurasi Live View NVR Hikvision via Web"><span class="ptag">HIKVISION WEB LIVE VIEW</span></div>
+      <div class="pbody">
+        <div class="pcatline">SURVEILLANCE CCTV</div>
+        <h3>Konfigurasi Live View NVR Hikvision via Web</h3>
+        <p class="pscope"><span>SCOPE</span>Login web-interface NVR Hikvision, pengaturan tampilan multi-kamera, pengecekan status live tiap channel.</p>
+        <p class="phw"><span>HARDWARE</span>Hikvision NVR, Kamera IP 12-Channel, Laptop Konfigurasi</p>
+      </div>
+    </div>
+    <div class="pcard" data-cat="cctv" onclick="openModal(14)">
+      <div class="pimg"><img src="assets/images/proj-15-dome-mounting.jpg" loading="lazy" alt="Pemasangan Kamera Dome pada Sudut Plafon"><span class="ptag">DOME CAMERA MOUNTING</span></div>
+      <div class="pbody">
+        <div class="pcatline">SURVEILLANCE CCTV</div>
+        <h3>Pemasangan Kamera Dome pada Sudut Plafon</h3>
+        <p class="pscope"><span>SCOPE</span>Pemasangan kamera dome indoor pada sudut ruangan, pengaturan sudut pandang optimal, perapian jalur kabel menuju plafon.</p>
+        <p class="phw"><span>HARDWARE</span>Dome Camera Indoor, Kabel Coaxial/UTP</p>
+      </div>
+    </div>
+ </div>
+</section>
+
+<section class="sec bord wrap" id="pengalaman">
+ <div class="sechead">
+  <div><h2><span class="secno">03.</span>Timeline Pengalaman</h2></div>
+ </div>
+ <div class="tl">
+  <div class="tlitem">
+   <div class="tlrole">Field Technician — IT Infrastructure &amp; ELV</div>
+   <div class="tlmeta">SUBCONTRACTOR / PROJECT-BASED // FEB 2024 — SEKARANG</div>
+   <ul>
+    <li>Penarikan jalur kabel UTP (Cat5e/Cat6 via tray &amp; konduit), terminasi patch panel/RJ45, pengujian kontinuitas.</li>
+    <li>Instalasi &amp; penyetelan titik CCTV IP &amp; Analog (Hikvision &amp; Dahua), remote viewing Hik-Connect/DMSS.</li>
+    <li>Konfigurasi MikroTik (RouterOS, DHCP, NAT), switch Cisco, serta IP PBX Yeastar untuk ekstensi telepon kantor.</li>
+    <li>Instalasi &amp; integrasi sistem tata suara gedung (Public Address) TOA — speaker, amplifier, selector zone.</li>
+   </ul>
+  </div>
+  <div class="tlitem">
+   <div class="tlrole">Peserta Magang — Dukungan IT &amp; Jaringan</div>
+   <div class="tlmeta">LAPAS NARKOTIKA KELAS II A GUNUNG SINDUR // NOV 2025 — MEI 2026</div>
+   <ul>
+    <li>Penarikan kabel UTP, terminasi, ekspansi titik LAN baru, troubleshooting konektivitas berkala.</li>
+    <li>Dukungan teknis harian untuk PC, printer, perangkat biometrik, dan sistem operasi Windows.</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<footer id="kontak">
+ <div class="wrap">
+  <div class="footgrid">
+   <div>
+    <h4>Kontak Langsung</h4>
+    <div class="contactlist">
+     <a href="tel:+6281282497033">+62 812-8249-7033</a>
+     <a href="mailto:rdhgstwnn18@gmail.com">rdhgstwnn18@gmail.com</a>
+     <a href="https://www.linkedin.com/in/rdhgstwn/" onclick="return false;">LinkedIn — Ridho Gustiawan</a>
+    </div>
+   </div>
+   <div>
+    <h4>Dokumen</h4>
+    <a class="btn" download href="assets/docs/CV_Ridho_Gustiawan.pdf">↓ Unduh CV (PDF)</a>
+   </div>
+  </div>
+  <div class="footbottom">
+   <div>SYS_STATUS: VERIFIED // LOG ARCHIVE 2026</div>
+   <div>© 2026 RIDHO GUSTIAWAN</div>
+  </div>
+ </div>
+</footer>
+
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+ <div class="modalbox">
+  <div class="modalimg"><img id="mimg" src="" alt=""></div>
+  <div class="modalinfo">
+   <button class="modalclose" onclick="closeModal()">✕</button>
+   <div class="pcatline" id="mcat"></div>
+   <div class="ptag" id="mtag" style="position:static; display:inline-block; margin-top:4px;"></div>
+   <h3 id="mtitle"></h3>
+   <p id="mscope"><span>SCOPE OF WORK</span></p>
+   <p id="mhw"><span>HARDWARE TERPASANG</span></p>
+  </div>
+ </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
