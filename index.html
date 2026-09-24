@@ -75,20 +75,41 @@
 
 <section class="sec bord wrap reveal" id="arsip">
  <div class="sechead reveal-item">
-  <div><h2><span class="secno">02.</span>Field Project Archive</h2></div>
-  <p>Dokumentasi langsung dari lapangan — klik untuk detail teknis.</p>
+  <div class="archive-headline">
+   <div><h2><span class="secno">02.</span>Field Project Archive</h2></div>
+   <button class="print-export-btn" type="button" onclick="window.print()" aria-label="Cetak ringkasan proyek">
+    <span class="printer-icon" aria-hidden="true">⎙</span>
+    <span>EXPORT DOSSIER PDF</span>
+   </button>
+  </div>
+  <p>Dokumentasi — klik untuk detail teknis.</p>
+ </div>
+ <div class="print-header" aria-hidden="true">
+  <div class="print-header-left">
+   <div class="print-heading">FIELD INSTALLATION &amp; PROJECT DOSSIER</div>
+   <div class="print-subheading">IT Infrastructure, Structured Cabling, &amp; ELV Systems Deployment</div>
+  </div>
+  <div class="print-header-right">
+   <div class="print-meta">TECHNICIAN: RIDHO GUSTIAWAN</div>
+   <div class="print-meta print-meta-small">CONTACT: +62 812-8249-7033 // rdhgstwnn18@gmail.com</div>
+    <div class="print-meta print-meta-small print-meta-muted">STATUS: SUBCONTRACTOR / FIELD VERIFIED</div>
+    <div class="print-meta print-meta-small" style="margin-top:6px;">
+     <a href="https://portofolio-ridho-gustiawan.vercel.app/" target="_blank" class="print-live-link">LIVE DOSSIER: portofolio-ridho-gustiawan.vercel.app</a>
+    </div>
+  </div>
  </div>
  <div class="filters reveal-item">
   <button class="fbtn active" data-f="all">SEMUA DOKUMEN</button>
   <button class="fbtn" data-f="jaringan">JARINGAN &amp; KABEL</button>
   <button class="fbtn" data-f="cctv">SURVEILLANCE CCTV</button>
   <button class="fbtn" data-f="pbx">IP PBX &amp; TOA</button>
+  <button class="fbtn" data-f="hardware">HARDWARE &amp; SISTEM</button>
  </div>
  <div class="pgrid reveal-item" id="pgrid">
-    <div class="pcard" data-cat="jaringan" onclick="openModal(0)">
+    <div class="pcard" data-cat="hardware" onclick="openModal(0)">
       <div class="pimg"><img src="assets/images/proj-01-os-install.jpg" loading="lazy" alt="Instalasi Ulang Sistem Operasi & Penggantian HDD"><span class="ptag">OS INSTALLATION</span></div>
       <div class="pbody">
-        <div class="pcatline">JARINGAN & KABEL</div>
+          <div class="pcatline">HARDWARE &amp; SISTEM</div>
         <h3>Instalasi Ulang Sistem Operasi & Penggantian HDD</h3>
         <p class="pscope"><span>SCOPE</span>Instalasi ulang Windows OS pada unit laptop klien, pemeriksaan kondisi hardware, persiapan HDD pengganti untuk unit backup.</p>
         <p class="phw"><span>HARDWARE</span>Laptop Klien, HDD 2.5", Installer Windows OS</p>
@@ -232,18 +253,28 @@
    <div class="tlrole">Field Technician — IT Infrastructure &amp; ELV</div>
    <div class="tlmeta">SUBCONTRACTOR / PROJECT-BASED // FEB 2024 — SEKARANG</div>
    <ul>
-    <li>Penarikan jalur kabel UTP (Cat5e/Cat6 via tray &amp; konduit), terminasi patch panel/RJ45, pengujian kontinuitas.</li>
-    <li>Instalasi &amp; penyetelan titik CCTV IP &amp; Analog (Hikvision &amp; Dahua), remote viewing Hik-Connect/DMSS.</li>
-    <li>Konfigurasi MikroTik (RouterOS, DHCP, NAT), switch Cisco, serta IP PBX Yeastar untuk ekstensi telepon kantor.</li>
-    <li>Instalasi &amp; integrasi sistem tata suara gedung (Public Address) TOA — speaker, amplifier, selector zone.</li>
+    <li>Penarikan jalur kabel UTP (Cat5e/Cat6 via tray &amp; konduit), terminasi patch panel / RJ45, serta pengujian kontinuitas untuk kebutuhan LAN skala industri.</li>
+    <li>Instalasi dan penyetelan puluhan titik CCTV IP &amp; Analog (Hikvision &amp; Dahua), perapian NVR/DVR pada rack server, serta konfigurasi remote viewing (Hik-Connect/DMSS).</li>
+    <li>Konfigurasi dan pemasangan perangkat jaringan MikroTik (RouterOS, DHCP, NAT), switch Cisco, serta sistem IP PBX Yeastar (VoIP) untuk ekstensi telepon kantor.</li>
+    <li>Instalasi dan integrasi sistem tata suara gedung (Public Address) menggunakan perangkat TOA (speaker, amplifier, dan selector zone) untuk pengumuman operasional pabrik/gedung.</li>
+    <li>Penanganan troubleshooting konektivitas jaringan, pemeliharaan hardware PC/laptop, dan instalasi OS Windows sesuai standar keselamatan kerja (K3).</li>
    </ul>
   </div>
   <div class="tlitem">
    <div class="tlrole">Peserta Magang — Dukungan IT &amp; Jaringan</div>
    <div class="tlmeta">LAPAS NARKOTIKA KELAS II A GUNUNG SINDUR // NOV 2025 — MEI 2026</div>
    <ul>
-    <li>Penarikan kabel UTP, terminasi, ekspansi titik LAN baru, troubleshooting konektivitas berkala.</li>
-    <li>Dukungan teknis harian untuk PC, printer, perangkat biometrik, dan sistem operasi Windows.</li>
+    <li>Penarikan kabel UTP, terminasi, ekspansi titik LAN baru, serta penanganan troubleshooting konektivitas jaringan operasional secara berkala.</li>
+    <li>Memberikan dukungan teknis harian (end-user support) untuk pemeliharaan PC, printer, perangkat pemindai biometrik, dan sistem operasi Windows.</li>
+    <li>Mengelola administrasi dan pemutakhiran basis data berkas pembinaan serta hak integrasi warga binaan (PB, CB, CMB, dan usulan remisi) secara terstruktur dan presisi.</li>
+   </ul>
+  </div>
+  <div class="tlitem">
+   <div class="tlrole">Kerja Lapangan (PKL) — Administrasi &amp; Aset</div>
+   <div class="tlmeta">MR. BROWNCO // JAN 2019 — APR 2019</div>
+   <ul>
+    <li>Rekonsiliasi data harian produksi dan inventarisasi barang berbasis spreadsheet secara presisi.</li>
+    <li>Penyusunan laporan administrasi operasional berkala secara akurat dan tepat waktu.</li>
    </ul>
   </div>
  </div>
