@@ -47,3 +47,16 @@ function closeModal() {
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeModal();
 });
+
+const revealItems = document.querySelectorAll('.reveal, .reveal-item');
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+revealItems.forEach((item) => revealObserver.observe(item));

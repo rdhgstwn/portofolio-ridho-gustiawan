@@ -15,28 +15,37 @@
 <header>
  <div class="wrap navrow">
   <div class="brand"><span class="dot"></span>RG / INFRA-LOG<small>&nbsp;— AVAILABLE FOR PROJECTS</small></div>
-  <nav>
-   <div class="navlinks" style="display:flex; gap:26px; align-items:center;">
+  <nav class="topnav">
+   <div class="navlinks">
     <a class="navlink" href="#spek">01. Spesifikasi</a>
     <a class="navlink" href="#arsip">02. Dokumentasi Proyek</a>
     <a class="navlink" href="#pengalaman">03. Pengalaman</a>
    </div>
-   <a class="btn solid" href="#kontak" style="margin-left:22px;">Hubungi</a>
+   <a class="btn solid navcta" href="#kontak">Hubungi</a>
   </nav>
  </div>
 </header>
 
-<section class="hero wrap">
+<section class="hero wrap reveal">
  <div class="herogrid">
-  <div>
-   <div class="eyebrow">FIELD TECHNICIAN — IT INFRASTRUCTURE &amp; ELV</div>
+  <div class="hero-copy reveal-item">
+   <div class="eyebrow">TECHNICAL PORTFOLIO // FIELD TECHNICIAN — IT INFRASTRUCTURE &amp; ELV</div>
    <h1>Membangun Fondasi Fisik Jaringan &amp; Sistem Pengawasan.</h1>
   </div>
-  <div class="heroside">
+  <div class="heroside reveal-item">
    <p>Menangani instalasi kabel terstruktur skala pabrik/gedung, integrasi CCTV enterprise, IP PBX Yeastar, dan sistem tata suara gedung TOA.</p>
    <div class="idbadge">
-    <img src="assets/images/portrait.jpg" alt="Ridho Gustiawan">
-    <div class="idtxt"><b>RIDHO GUSTIAWAN</b>ID: 010 / K3 CERTIFIED<br>FIELD OPERATOR</div>
+    <div class="idphoto">
+     <div class="photoframe">
+      <img src="assets/images/portrait.jpg" alt="Ridho Gustiawan">
+     </div>
+     <div class="idtag">K3 COMPLIANT // ON-SITE TECHNICIAN</div>
+    </div>
+    <div class="idtxt">
+     <span class="idname">RIDHO GUSTIAWAN</span>
+     <span class="idlabel">FIELD OPERATOR</span>
+     <span class="idmeta">IT INFRASTRUCTURE &amp; ELV</span>
+    </div>
    </div>
   </div>
  </div>
@@ -47,12 +56,12 @@
  </div>
 </section>
 
-<section class="sec bord wrap" id="spek">
- <div class="sechead">
+<section class="sec bord wrap reveal" id="spek">
+ <div class="sechead reveal-item">
   <div><h2><span class="secno">01.</span>Perangkat &amp; Ekosistem</h2></div>
   <p>Kategori perangkat dan sistem yang ditangani di lapangan secara rutin.</p>
  </div>
- <div class="stackgrid">
+ <div class="stackgrid reveal-item">
   <div class="stackcard"><div class="sn">BLOCK / 01</div><h4>Surveillance</h4>
    <ul><li>Hikvision &amp; Dahua Camera</li><li>NVR / DVR</li><li>SADP Tool</li><li>IP PoE</li></ul></div>
   <div class="stackcard"><div class="sn">BLOCK / 02</div><h4>Cabling &amp; Network</h4>
@@ -64,18 +73,18 @@
  </div>
 </section>
 
-<section class="sec bord wrap" id="arsip">
- <div class="sechead">
+<section class="sec bord wrap reveal" id="arsip">
+ <div class="sechead reveal-item">
   <div><h2><span class="secno">02.</span>Field Project Archive</h2></div>
   <p>Dokumentasi langsung dari lapangan — klik untuk detail teknis.</p>
  </div>
- <div class="filters">
+ <div class="filters reveal-item">
   <button class="fbtn active" data-f="all">SEMUA DOKUMEN</button>
   <button class="fbtn" data-f="jaringan">JARINGAN &amp; KABEL</button>
   <button class="fbtn" data-f="cctv">SURVEILLANCE CCTV</button>
   <button class="fbtn" data-f="pbx">IP PBX &amp; TOA</button>
  </div>
- <div class="pgrid" id="pgrid">
+ <div class="pgrid reveal-item" id="pgrid">
     <div class="pcard" data-cat="jaringan" onclick="openModal(0)">
       <div class="pimg"><img src="assets/images/proj-01-os-install.jpg" loading="lazy" alt="Instalasi Ulang Sistem Operasi & Penggantian HDD"><span class="ptag">OS INSTALLATION</span></div>
       <div class="pbody">
@@ -218,7 +227,7 @@
  <div class="sechead">
   <div><h2><span class="secno">03.</span>Timeline Pengalaman</h2></div>
  </div>
- <div class="tl">
+ <div class="tl reveal-item">
   <div class="tlitem">
    <div class="tlrole">Field Technician — IT Infrastructure &amp; ELV</div>
    <div class="tlmeta">SUBCONTRACTOR / PROJECT-BASED // FEB 2024 — SEKARANG</div>
@@ -240,20 +249,23 @@
  </div>
 </section>
 
-<footer id="kontak">
+<footer id="kontak" class="reveal">
  <div class="wrap">
-  <div class="footgrid">
+  <div class="footgrid reveal-item">
    <div>
     <h4>Kontak Langsung</h4>
     <div class="contactlist">
-     <a href="tel:+6281282497033">+62 812-8249-7033</a>
+     <a href="https://wa.me/6281282497033" target="_blank" rel="noopener noreferrer">+62 812-8249-7033</a>
      <a href="mailto:rdhgstwnn18@gmail.com">rdhgstwnn18@gmail.com</a>
-     <a href="https://www.linkedin.com/in/rdhgstwn/" onclick="return false;">LinkedIn — Ridho Gustiawan</a>
+     <a href="https://www.linkedin.com/in/rdhgstwn/" target="_blank" rel="noopener noreferrer">LinkedIn — Ridho Gustiawan</a>
     </div>
    </div>
    <div>
     <h4>Dokumen</h4>
-    <a class="btn" download href="assets/docs/CV_Ridho_Gustiawan.pdf">↓ Unduh CV (PDF)</a>
+    <div class="doc-actions">
+     <a class="btn" download href="assets/docs/CV_Ridho_Gustiawan.pdf">↓ Unduh CV (PDF)</a>
+     <a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1aFgHvLYzHpabtnJzma70_yw6C4Fv5Nu8?usp=sharing" target="_blank" rel="noopener noreferrer">↗ Lihat Dokumen Pendukung</a>
+    </div>
    </div>
   </div>
   <div class="footbottom">
